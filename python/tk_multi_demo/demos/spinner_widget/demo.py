@@ -43,11 +43,7 @@ class SpinnerWidgetDemo(QtGui.QWidget):
         stop_spinner = OverlayButton("hide spinner")
         stop_spinner.clicked.connect(spinner.hide)
 
-        # a label to show instructions in the UI
-        doc = QtGui.QLabel("The spinner will appear above this label.")
-        doc.setAlignment(QtCore.Qt.AlignCenter)
-
-        # ---- set up layout ----
+        # ---- layout section ----
 
         # set up a horizontal layout for the spinner
         spinner_layout = QtGui.QHBoxLayout()
