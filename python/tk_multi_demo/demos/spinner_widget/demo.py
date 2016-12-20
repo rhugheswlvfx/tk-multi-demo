@@ -31,7 +31,7 @@ class SpinnerWidgetDemo(QtGui.QWidget):
         super(SpinnerWidgetDemo, self).__init__(parent)
 
         # create the spinner
-        spinner = spinner_widget.SpinnerWidget(self.window())
+        spinner = spinner_widget.SpinnerWidget(self)
 
         # add some geometry so it will show up
         spinner.setFixedSize(QtCore.QSize(100, 100))
