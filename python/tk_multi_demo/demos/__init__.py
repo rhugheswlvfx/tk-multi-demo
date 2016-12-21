@@ -15,6 +15,7 @@ from field_widget_delegate import FieldWidgetDelegateDemo
 from field_widgets_form import FieldWidgetsFormDemo
 from help import HelpDemo
 from overlay import OverlayDemo
+from playback_label import PlaybackLabelDemo
 from shotgun_menu import ShotgunMenuDemo
 from shotgun_hierarchy import ShotgunHierarchyDemo
 from shotgun_globals import ShotgunGlobalsDemo
@@ -31,6 +32,7 @@ DEMOS_LIST = [
         EntityFieldMenuDemo,
         FieldWidgetDelegateDemo,
         FieldWidgetsFormDemo,
+	PlaybackLabelDemo,
         ShotgunHierarchyDemo,
         OverlayDemo,
         ShotgunMenuDemo,
