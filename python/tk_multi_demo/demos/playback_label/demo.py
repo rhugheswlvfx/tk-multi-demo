@@ -64,8 +64,12 @@ class PlaybackLabelDemo(QtGui.QWidget):
         label.playback_clicked.connect(self._on_playback_requested)
 
         # lay out the widgets
+        doc = QtGui.QLabel("You can now click on the thumbnail to play back the Version.")
+        doc.setAlignment(QtCore.Qt.AlignCenter)
         layout = QtGui.QVBoxLayout(self)
         layout.addStretch()
+        layout.addWidget(doc)
+        layout.addSpacing(8)
         layout.addWidget(label)
         layout.addStretch()
 
